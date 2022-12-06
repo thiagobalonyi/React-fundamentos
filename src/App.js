@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Condicional from './components/Condicional';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className='App'>
+      <h1>Renderiação Condicional</h1>
+      <Condicional />
     </div>
   );
 }
 
 export default App;
+
+
+// <div className="App">
+    //   <Frase />
+    //   <HelloWorld />
+    //   <SayMyName name='Thiago' />
+    //   <SayMyName name={name} />
+    //   <Pessoa 
+    //     nome='Thiago'
+    //     idade='39'
+    //     profissao='Programador'
+    //     foto='https://via.placeholder.com/150'
+    //     />
+    //     <List />
+    // </div>
